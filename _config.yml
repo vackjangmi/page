@@ -1,0 +1,16 @@
+title: My Blog
+description: 기록용 블로그
+theme: minima
+
+# 상단 네비 메뉴
+nav:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Posts
+    url: /posts/
+
+# (선택) GitHub Pages에서 안전하게 동작
+markdown: kramdown
+permalink: /:categories/:title/
